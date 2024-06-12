@@ -23,6 +23,6 @@ class Libro(Material):
     def actualizar_disponibilidad(self,disponible):
         self.disponible=disponible
 if __name__ == "_main_":
-    l = Libro(codigo='04', autor='Michael Elias', titulo='El perro loco', editorial='SA Quirumbay', anio=2005,
+    l = Libro(codigo='03, autor='Pablo ', titulo='La_luciernaga', editorial='edit_papel', anio=2005,
                  disponible=True, cantidad_disponible=5, tipo_pasta='MUY DURA')
 print(l)
